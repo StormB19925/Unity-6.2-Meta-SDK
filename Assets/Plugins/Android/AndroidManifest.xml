@@ -12,7 +12,7 @@
     </activity>
     <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="false" />
     <meta-data android:name="com.oculus.ossplash.background" android:value="passthrough-contextual" />
-    <meta-data android:name="com.oculus.telemetry.project_guid" android:value="e3aaf2bc-0fea-44b6-ab44-91685421bc2a" />
+    <meta-data android:name="com.oculus.telemetry.project_guid" android:value="126ac9a4-b5f9-4803-84dc-8dc6e02bdaf0" />
     <meta-data android:name="com.oculus.supportedDevices" android:value="quest2|questpro|quest3|quest3s" tools:replace="android:value" />
     <meta-data android:name="com.oculus.handtracking.frequency" android:value="MAX" />
     <meta-data android:name="com.oculus.handtracking.version" android:value="V2.0" />
@@ -26,4 +26,5 @@
   <uses-feature android:name="com.oculus.feature.RENDER_MODEL" />
   <uses-permission android:name="com.oculus.permission.RENDER_MODEL" />
   <uses-permission android:name="com.oculus.permission.USE_SCENE" />
+  <uses-permission android:name="horizonos.permission.HEADSET_CAMERA" />
 </manifest>
