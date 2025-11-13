@@ -1,0 +1,11 @@
+Model Information:
+* title:	baseball - model
+* source:	https://sketchfab.com/3d-models/baseball-model-29622b577d8e4e6dbd9fa40454f18118
+* author:	mrtwins (https://sketchfab.com/mrtwins)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "baseball - model" (https://sketchfab.com/3d-models/baseball-model-29622b577d8e4e6dbd9fa40454f18118) by mrtwins (https://sketchfab.com/mrtwins) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
