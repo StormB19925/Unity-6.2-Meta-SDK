@@ -1,0 +1,11 @@
+{
+    "asset": "3697d6dc459a1e94d88da370b314dd0d",
+    "fileName": "019a9d7e-cc0c-7f18-8bc0-0c544c442b50_Preview.png",
+    "prompt": "Create a material suitable for a mesh collider.",
+    "negativePrompt": "",
+    "model": "44ec3749-963a-44b1-aa54-dc19f6ed8ab2",
+    "modelName": "Unity Texture2D",
+    "customSeed": 1668785396,
+    "w3CTraceId": "d5b9cb17871af9c447f0fcb4349ba8a5",
+    "refinementMode": "Generation"
+}
