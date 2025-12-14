@@ -1,9 +1,8 @@
 {
   "dependencies": {
-    "com.meta.xr.mrutilitykit": "81.0.0",
-    "com.meta.xr.sdk.core": "81.0.0",
-    "com.meta.xr.sdk.interaction.ovr": "81.0.0",
-    "com.meta.xr.simulator": "81.0.0",
+    "com.meta.xr.mrutilitykit": "83.0.0",
+    "com.meta.xr.sdk.core": "83.0.0",
+    "com.meta.xr.sdk.interaction.ovr": "83.0.0",
     "com.unity.2d.enhancers": "1.0.0",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
