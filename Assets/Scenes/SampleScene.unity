@@ -162,14 +162,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395475503}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.41029066, z: -0, w: 0.91195476}
+  m_LocalPosition: {x: 1.573334, y: 0, z: 0.67335284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 418534036}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 48.446, z: 0}
 --- !u!1 &418534035
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +496,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1388310896670823809, guid: 6956ec82426fb434ba1a955391b78bb5, type: 3}
+      propertyPath: _oneGrabTransformer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7338144316924809443, guid: 6956ec82426fb434ba1a955391b78bb5, type: 3}
+      propertyPath: _oneGrabTransformer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8478453052584291287, guid: 6956ec82426fb434ba1a955391b78bb5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.242
@@ -541,7 +549,8 @@ PrefabInstance:
       value: Teddy Bear With Rig
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3453976127066360485, guid: 6956ec82426fb434ba1a955391b78bb5, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6956ec82426fb434ba1a955391b78bb5, type: 3}
@@ -1398,11 +1407,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6957828826786488073, guid: eef69dd8862cdc149aa1dcacf01c7ee8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.449
       objectReference: {fileID: 0}
     - target: {fileID: 6957828826786488073, guid: eef69dd8862cdc149aa1dcacf01c7ee8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.622
       objectReference: {fileID: 0}
     - target: {fileID: 6957828826786488073, guid: eef69dd8862cdc149aa1dcacf01c7ee8, type: 3}
       propertyPath: m_LocalRotation.w
