@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7512159069071771418}
   - component: {fileID: 3077491603361618449}
   - component: {fileID: 4265273146760718792}
+  - component: {fileID: 6679128782781113203}
   m_Layer: 0
   m_Name: Tail Collider
   m_TagString: Grabbable
@@ -288,6 +289,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &6679128782781113203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404104750898563608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 7512159069071771418}
+  _rigidbody: {fileID: 4305913099171471271}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &957699701731238923
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +345,7 @@ GameObject:
   - component: {fileID: 3458969807677265989}
   - component: {fileID: 9164365563791483080}
   - component: {fileID: 7623903250406610939}
+  - component: {fileID: 7970361101785619794}
   m_Layer: 0
   m_Name: Left Leg
   m_TagString: Grabbable
@@ -522,6 +565,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &7970361101785619794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957699701731238923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 3458969807677265989}
+  _rigidbody: {fileID: 4793640308778991111}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &1471412837681308063
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,6 +621,7 @@ GameObject:
   - component: {fileID: 3631945353672944286}
   - component: {fileID: 6999656847911985325}
   - component: {fileID: 7302382136592005787}
+  - component: {fileID: 484973562082629146}
   m_Layer: 0
   m_Name: 'Left Ear Collider '
   m_TagString: Grabbable
@@ -810,6 +895,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &484973562082629146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471412837681308063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 3631945353672944286}
+  _rigidbody: {fileID: 3852688393291212804}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &2402321233272508711
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,6 +951,7 @@ GameObject:
   - component: {fileID: 1424069039234830707}
   - component: {fileID: 1509296124518918734}
   - component: {fileID: 5925434839992838413}
+  - component: {fileID: 9016207899196170326}
   m_Layer: 0
   m_Name: Head Collider
   m_TagString: Grabbable
@@ -844,8 +971,7 @@ Transform:
   m_LocalPosition: {x: 0.00056399795, y: 0.11600197, z: 0.0010702237}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2581399924624500496}
+  m_Children: []
   m_Father: {fileID: 251219072011143621}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &9056561323739019057
@@ -1099,168 +1225,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
---- !u!1 &3453976127066360485
-GameObject:
+--- !u!114 &9016207899196170326
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2581399924624500496}
-  - component: {fileID: 2497155550838318637}
-  - component: {fileID: 15322393794254483}
-  m_Layer: 0
-  m_Name: Saved Joint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &2581399924624500496
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3453976127066360485}
-  serializedVersion: 2
-  m_LocalRotation: {x: -9.226041e-11, y: -0.9499773, z: 0.00000006663994, w: -0.31231892}
-  m_LocalPosition: {x: -0.088732444, y: -0.7090019, z: 0.5273098}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9116630148441811984}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2497155550838318637
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3453976127066360485}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!153 &15322393794254483
-ConfigurableJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3453976127066360485}
-  serializedVersion: 4
-  m_ConnectedBody: {fileID: 5503260328133686691}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00001565941, y: 0.005239739, z: -0.000006311358}
-  m_SecondaryAxis: {x: 0, y: 1, z: 0}
-  m_XMotion: 2
-  m_YMotion: 2
-  m_ZMotion: 2
-  m_AngularXMotion: 2
-  m_AngularYMotion: 2
-  m_AngularZMotion: 2
-  m_LinearLimitSpring:
-    spring: 0
-    damper: 0
-  m_LinearLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularXLimitSpring:
-    spring: 0
-    damper: 0
-  m_LowAngularXLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_HighAngularXLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularYZLimitSpring:
-    spring: 0
-    damper: 0
-  m_AngularYLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_AngularZLimit:
-    limit: 0
-    bounciness: 0
-    contactDistance: 0
-  m_TargetPosition: {x: 0, y: 0, z: 0}
-  m_TargetVelocity: {x: 0, y: 0, z: 0}
-  m_XDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_YDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_ZDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
-  m_RotationDriveMode: 0
-  m_AngularXDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_AngularYZDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_SlerpDrive:
-    serializedVersion: 4
-    positionSpring: 0
-    positionDamper: 0
-    maximumForce: 3.4028233e+38
-    useAcceleration: 0
-  m_ProjectionMode: 0
-  m_ProjectionDistance: 0.1
-  m_ProjectionAngle: 180
-  m_ConfiguredInWorldSpace: 0
-  m_SwapBodies: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
+  m_GameObject: {fileID: 2402321233272508711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 1424069039234830707}
+  _rigidbody: {fileID: 8907938198954015500}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &3943400475635731569
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1281,7 @@ GameObject:
   - component: {fileID: 7694103995169610899}
   - component: {fileID: 1187739502053652921}
   - component: {fileID: 2126898608573488689}
+  - component: {fileID: 406608479341757192}
   m_Layer: 0
   m_Name: Left Foot
   m_TagString: Grabbable
@@ -1495,6 +1501,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &406608479341757192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943400475635731569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 7694103995169610899}
+  _rigidbody: {fileID: 650922315740055182}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &5212442470647216161
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,6 +1557,7 @@ GameObject:
   - component: {fileID: 6637797271925751030}
   - component: {fileID: 7449345229751706662}
   - component: {fileID: 1968022589990299085}
+  - component: {fileID: 4679665970032164145}
   m_Layer: 0
   m_Name: Right Foot
   m_TagString: Grabbable
@@ -1729,6 +1777,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &4679665970032164145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5212442470647216161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 6637797271925751030}
+  _rigidbody: {fileID: 2718122608049970826}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &6022430199193562652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,6 +1833,7 @@ GameObject:
   - component: {fileID: 6988859018408500634}
   - component: {fileID: 4997910286538716819}
   - component: {fileID: 1870780400784194990}
+  - component: {fileID: 6932076012509333543}
   m_Layer: 0
   m_Name: Mouth Collider
   m_TagString: Grabbable
@@ -2017,6 +2107,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &6932076012509333543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022430199193562652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 6988859018408500634}
+  _rigidbody: {fileID: 7211760832099497741}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &6748260055788840024
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,6 +2162,7 @@ GameObject:
   - component: {fileID: 1388310896670823809}
   - component: {fileID: 7216141953296104909}
   - component: {fileID: 6608503244067307741}
+  - component: {fileID: 6382814116060175124}
   m_Layer: 0
   m_Name: Torse Collider
   m_TagString: Grabbable
@@ -2204,6 +2336,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &6382814116060175124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6748260055788840024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 1388310896670823809}
+  _rigidbody: {fileID: 5503260328133686691}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &6891925823686531668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,6 +2392,7 @@ GameObject:
   - component: {fileID: 4404329327545897062}
   - component: {fileID: 5501038487257775993}
   - component: {fileID: 26850550792907472}
+  - component: {fileID: 8650264119316960380}
   m_Layer: 0
   m_Name: Right Leg
   m_TagString: Grabbable
@@ -2438,6 +2612,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &8650264119316960380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6891925823686531668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 4404329327545897062}
+  _rigidbody: {fileID: 6533633474713256718}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &6902287424719444342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2453,6 +2668,7 @@ GameObject:
   - component: {fileID: 2445811491122827437}
   - component: {fileID: 1117863581385151380}
   - component: {fileID: 479618990898949379}
+  - component: {fileID: 616014691879454164}
   m_Layer: 0
   m_Name: Nose Collider
   m_TagString: Grabbable
@@ -2726,6 +2942,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &616014691879454164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902287424719444342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 2445811491122827437}
+  _rigidbody: {fileID: 7102505168252870031}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &8545093963582550967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,7 +2992,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 251219072011143621}
-  - component: {fileID: 6711989721629243353}
   m_Layer: 0
   m_Name: GrabbableTeddy
   m_TagString: Grabbable
@@ -2771,38 +3027,6 @@ Transform:
   - {fileID: 3198853278101977165}
   m_Father: {fileID: 8478453052584291287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6711989721629243353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8545093963582550967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cb4a09355f9dc244bfbcd2ac9208ef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
-  _data: {fileID: 0}
-  _pointableElement: {fileID: 1388310896670823809}
-  _boundsCollider: {fileID: 8409113462940623950}
-  _colliders:
-  - {fileID: 9056561323739019057}
-  - {fileID: 1972631099205195298}
-  - {fileID: 8298222451572922790}
-  - {fileID: 8409113462940623950}
-  - {fileID: 7622008070315852638}
-  - {fileID: 2297976717349510771}
-  - {fileID: 560282086677502627}
-  - {fileID: 2488012730010524226}
-  - {fileID: 6137809397754359339}
-  - {fileID: 308223105709932533}
-  - {fileID: 7007247053196317991}
-  - {fileID: 6003510928007697078}
-  - {fileID: 1916468041379284429}
 --- !u!1 &8570771680918089056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2818,6 +3042,7 @@ GameObject:
   - component: {fileID: 8050321272981651179}
   - component: {fileID: 999931449910796015}
   - component: {fileID: 4155438679345118820}
+  - component: {fileID: 916059226807612958}
   m_Layer: 0
   m_Name: Right Arm
   m_TagString: Grabbable
@@ -3037,6 +3262,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &916059226807612958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8570771680918089056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 8050321272981651179}
+  _rigidbody: {fileID: 6240142632326519698}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &8816532166752099485
 GameObject:
   m_ObjectHideFlags: 0
@@ -3052,6 +3318,7 @@ GameObject:
   - component: {fileID: 205868694794582066}
   - component: {fileID: 2484558928410953862}
   - component: {fileID: 2179222690800036236}
+  - component: {fileID: 9056859790015368377}
   m_Layer: 0
   m_Name: Left Arm
   m_TagString: Grabbable
@@ -3271,6 +3538,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &9056859790015368377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8816532166752099485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 205868694794582066}
+  _rigidbody: {fileID: 2034689328057977125}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1 &9108185245473820936
 GameObject:
   m_ObjectHideFlags: 0
@@ -3286,6 +3594,7 @@ GameObject:
   - component: {fileID: 3519274481235613747}
   - component: {fileID: 1085905468648688538}
   - component: {fileID: 8578142216641806823}
+  - component: {fileID: 5249039483766082965}
   m_Layer: 0
   m_Name: Right Ear Collider
   m_TagString: Grabbable
@@ -3559,6 +3868,47 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &5249039483766082965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108185245473820936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 3519274481235613747}
+  _rigidbody: {fileID: 2032880785293436355}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
 --- !u!1001 &8224484810167520316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3653,6 +4003,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0753b75270ea5344991400452e19da9a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5287607819680610170}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0753b75270ea5344991400452e19da9a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6209218777976213381}
   m_SourcePrefab: {fileID: 100100000, guid: 0753b75270ea5344991400452e19da9a, type: 3}
 --- !u!4 &8478453052584291287 stripped
 Transform:
@@ -3813,3 +4166,44 @@ MonoBehaviour:
   _customJoint: {fileID: 0}
   _isKinematicGrab: 1
   _rigidbodiesRoot: {fileID: 8478453052584291287}
+--- !u!114 &6209218777976213381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142963162221162861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 7338144316924809443}
+  _rigidbody: {fileID: 5019102039838657691}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
