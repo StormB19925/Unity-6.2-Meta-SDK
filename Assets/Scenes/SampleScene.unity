@@ -473,84 +473,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d75d3da303ca9c44974871681fff575, type: 3}
---- !u!1 &894195336
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 894195339}
-  - component: {fileID: 894195338}
-  - component: {fileID: 894195337}
-  m_Layer: 0
-  m_Name: '[BuildingBlock] EffectMesh'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &894195337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 894195336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e76943ac7e7394f3e969f0c048b26639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpawnOnStart: 1
-  MeshMaterial: {fileID: 2100000, guid: 599b01c5f1d17436c89b88cc04257314, type: 2}
-  BarycentricCoordinatesEnabled: 1
-  Colliders: 1
-  CutHoles: 0
-  castShadows: 1
-  hideMesh: 0
-  Layer: 0
-  textureCoordinateModes:
-  - WallU: 5
-    WallV: 2
-    AnchorUV: 1
-  Labels: 442367
---- !u!114 &894195338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 894195336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Meta.XR.BuildingBlocks::Meta.XR.BuildingBlocks.BuildingBlock
-  blockId: 65c6e778-10b3-4490-89da-008a18aa116a
-  instanceId: 8ca2d88f-c85d-497d-a9f8-d8b50b60f6de
-  version: 1
-  installationRoutineCheckpoint:
-    _installationRoutineId: 8567f25e-711a-4b11-9c24-c59866c57c50
-    _installationVariants:
-    - _memberName: EffectMeshTheme
-      _value: '{"value__":0}'
---- !u!4 &894195339
+--- !u!4 &894834165 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8720946927207024495, guid: 2e45ededf04e4ed499b996539cfc8740, type: 3}
+  m_PrefabInstance: {fileID: 4320275073208697160}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 894195336}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &1075554481
 Material:
   serializedVersion: 8
@@ -734,7 +661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _occlusionShadersMode: 2
   _removeHands: 0
-  CustomTrackingSpace: {fileID: 0}
+  CustomTrackingSpace: {fileID: 894834165}
   <MaskMeshFilters>k__BackingField: []
 --- !u!114 &1536423408
 MonoBehaviour:
@@ -748,7 +675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8affdff7ba47d892cc734baac9ac71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CustomTrackingSpace: {fileID: 0}
+  CustomTrackingSpace: {fileID: 894834165}
 --- !u!114 &1536423409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,6 +955,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1661746636859487821, guid: c59717d078601b74bb0d90f330939a2a, type: 3}
+      propertyPath: SceneSettings.LoadSceneOnStartup
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661746636859487821, guid: c59717d078601b74bb0d90f330939a2a, type: 3}
       propertyPath: SceneSettings.SceneJsons.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -1078,8 +1009,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3676396364340977875, guid: c59717d078601b74bb0d90f330939a2a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3087062113773300748}
   m_SourcePrefab: {fileID: 100100000, guid: c59717d078601b74bb0d90f330939a2a, type: 3}
+--- !u!1 &3087062113773300747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3676396364340977875, guid: c59717d078601b74bb0d90f330939a2a, type: 3}
+  m_PrefabInstance: {fileID: 3087062113773300746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3087062113773300748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3087062113773300747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09332ae7fcad91459d4408cacfee972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocalRoomLoader
+  LoadOnStart: 1
 --- !u!1001 &4007235782018738498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1145,6 +1097,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6613647608623310304, guid: 2e45ededf04e4ed499b996539cfc8740, type: 3}
+      propertyPath: _enableDynamicResolution
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6613647608623310304, guid: 2e45ededf04e4ed499b996539cfc8740, type: 3}
       propertyPath: shouldBoundaryVisibilityBeSuppressed
       value: 1
@@ -1336,4 +1292,3 @@ SceneRoots:
   - {fileID: 772567847}
   - {fileID: 1955323567}
   - {fileID: 1588907803}
-  - {fileID: 894195339}
